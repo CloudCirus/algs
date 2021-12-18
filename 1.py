@@ -10,4 +10,4 @@ def fined_elem(arg: str, target: str) -> Union[str, int]:
 
 
 if __name__ == '__main__':
-    print(fined_elem('Алгоритмика', 'А'))
+    print(fined_elem('Строка', 'А'))

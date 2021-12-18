@@ -1,12 +1,12 @@
-# Напишите программу, рисующую треугольник из символов * высотой N, 
-# где N - введенное пользователем целое положительное число.
-# Например, для N = 13 рядов результат:
-
-
-def bild_piramide(num: int) -> None:
+def bild_pyramide(num: int) -> None:
     for i in range(num):
-        print(' ' * (num - 1 - i), '*' * i, '*' * (i - 1), sep='')
+        print(
+            ' ' * (num - i - 1),
+            '*' * i, 
+            '*' * (i - 1), 
+            sep=''
+        )
 
 
 if __name__ == '__main__':
-    bild_piramide(13)
+    bild_pyramide(13)

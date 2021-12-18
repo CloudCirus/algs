@@ -1,4 +1,4 @@
-def finedindex(array: list, target: str):
+def fined_index(array: list, target: str) -> str:
     try: 
         return array.index(target)
     except:
@@ -7,4 +7,4 @@ def finedindex(array: list, target: str):
 
 if __name__ == '__main__':
     array = ['lol', 'lollol', 'ololo']
-    print(finedindex(array, 'lol'))
+    print(fined_index(array, 'lol'))

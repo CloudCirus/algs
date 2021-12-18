@@ -1,11 +1,10 @@
 def calculate_sum(number: int) -> int:
-    tmp = 0
+    res = 0
     while number:
-        divider = 10
-        res = number % divider
-        number = number // divider
-        tmp += res
-    return tmp
+        one = number % 10
+        number = number // 10
+        res += one
+    return res
 
 
 if __name__ == '__main__':
